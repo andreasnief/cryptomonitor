@@ -9,6 +9,14 @@ TELEGRAM_ENABLED = True
 TELEGRAM_BOT_TOKEN = "8358391123:AAGJdjcg4vmLQeiylz81KqdqULXYpkXHSmo"      # Platzhalter
 TELEGRAM_CHAT_ID = "8285970985"         # Platzhalter
 
+# Email Einstellungen
+EMAIL_ENABLED = True
+EMAIL_SMTP_SERVER = "smtps.udag.de"
+EMAIL_SMTP_PORT = 587
+EMAIL_USERNAME = "oldnippescom-0005"
+EMAIL_PASSWORD = "andreas4nieF"
+EMAIL_TO = "andreas@oldnippes.com"
+
 # RSS-Feeds
 RSS_FEEDS = [
     "https://www.coindesk.com/arc/outboundfeeds/rss/",
